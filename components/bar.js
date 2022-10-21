@@ -4,9 +4,9 @@ import { Data } from '../data'
 
 export default function Bar() {
   return (
-    <div tw="flex flex-row items-center justify-center justify-between h-24 sm:h-32 bg-sRed rounded-lg mb-4 sm:mb-6 pl-5 pr-6 sm:px-8">
+    <div tw="flex flex-row items-center justify-center justify-between h-24 sm:h-32 bg-sRed rounded-2xl mb-4 sm:mb-6 pl-5 pr-6 sm:px-8">
       {/* Balance */}
-      <div tw="flex flex-col justify-center">
+      <div tw="flex flex-col justify-center sm:space-y-2">
         <p tw="text-white">My balance</p>
         <p tw="text-white font-bold text-2xl sm:text-3xl">$921.48</p>
       </div>

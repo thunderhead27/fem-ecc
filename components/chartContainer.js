@@ -71,7 +71,7 @@ export default function ChartContainer() {
   }
 
   return (
-    <div tw="bg-white rounded-lg divide-y-2 px-5 sm:px-10 ">
+    <div tw="bg-white rounded-xl divide-y-2 px-5 sm:px-10 ">
       <div tw="">
         <h1 tw="font-bold text-2xl py-6 sm:py-10 sm:text-3xl">
           Spending - Last 7 days
