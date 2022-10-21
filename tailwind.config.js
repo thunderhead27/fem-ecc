@@ -17,6 +17,7 @@ module.exports = {
         mBrown: 'hsl(28, 10%, 53%)',
         cream: 'hsl(27, 66%, 92%)',
         vpOrange: 'hsl(33, 100%, 98%)',
+        cWhite: '#FFFBF6',
       },
     },
   },
