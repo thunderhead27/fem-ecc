@@ -71,9 +71,9 @@ export default function ChartContainer() {
   }
 
   return (
-    <div tw="bg-white rounded-xl divide-y-2 px-5 sm:px-10 ">
+    <div tw="bg-white rounded-2xl divide-y-2 px-5 sm:px-10 ">
       <div tw="">
-        <h1 tw="font-bold text-2xl py-6 sm:py-10 sm:text-3xl">
+        <h1 tw="font-bold text-2xl py-6 sm:py-10 sm:text-3xl text-dBrown">
           Spending - Last 7 days
         </h1>
         {/* Chart  */}
@@ -83,7 +83,7 @@ export default function ChartContainer() {
       </div>
       {/* Total info */}
       <div tw="flex flex-row justify-between py-6 sm:py-10">
-        <div tw="flex flex-col">
+        <div tw="flex flex-col sm:space-y-2">
           <p tw="text-mBrown">Total this month</p>
           <h1 tw="text-dBrown text-3xl sm:text-5xl font-bold">${total}</h1>
         </div>
