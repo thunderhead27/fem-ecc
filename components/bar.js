@@ -4,7 +4,7 @@ import { Data } from '../data'
 
 export default function Bar() {
   return (
-    <div tw="flex flex-row items-center justify-center justify-between h-24 sm:h-32 bg-sRed rounded-lg mb-4 sm:mb-6 pl-5 pr-6">
+    <div tw="flex flex-row items-center justify-center justify-between h-24 sm:h-32 bg-sRed rounded-lg mb-4 sm:mb-6 pl-5 pr-6 sm:px-8">
       {/* Balance */}
       <div tw="flex flex-col justify-center">
         <p tw="text-white">My balance</p>

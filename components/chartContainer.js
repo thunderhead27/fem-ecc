@@ -82,10 +82,10 @@ export default function ChartContainer() {
         </div>
       </div>
       {/* Total info */}
-      <div tw="flex flex-row justify-between py-6">
+      <div tw="flex flex-row justify-between py-6 sm:py-10">
         <div tw="flex flex-col">
           <p tw="text-mBrown">Total this month</p>
-          <h1 tw="text-dBrown text-3xl sm:text-4xl font-bold">${total}</h1>
+          <h1 tw="text-dBrown text-3xl sm:text-5xl font-bold">${total}</h1>
         </div>
         <div tw="flex flex-col justify-end items-end">
           <p tw="text-dBrown font-bold sm:text-lg">+2.4%</p>
